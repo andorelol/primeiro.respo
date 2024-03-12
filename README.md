@@ -16,3 +16,22 @@ public class Main {
         System.out.println("Conta do " + c1.titular + " // numero " + c1.numero + " // saldo atual: " + c1.saldo);
     }
 }
+
+
+
+
+
+
+
+  public class Empresa {
+    public static void main(String[] args) {
+        int janeiro = 15000;
+        int fevereiro = 23000;
+        int março = 17000;
+        int somaTotal = janeiro + fevereiro + março;
+        double media = somaTotal / 3.0; // Calcula a média
+        System.out.println("A soma total é: " + somaTotal);
+        System.out.println("A média é: " + media);
+    }
+
+}
